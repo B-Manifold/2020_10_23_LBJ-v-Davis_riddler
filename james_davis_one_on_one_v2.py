@@ -66,12 +66,12 @@ while lbj_steal_prob <= 1000:
     
     #simultating 10,000 games for the given steal probability
     while num_games < 10000:
-        davis_has_ball = bool(rand.randint(0,1))
-        if play_game(davis_has_ball, lbj_steal_prob):
+        davis_has_ball = bool(rand.randint(0,1)) #Flipping the coin to see who has the ball first this game
+        if play_game(davis_has_ball, lbj_steal_prob): #Davis wins the game
             davis_wins += 1
             num_games += 1
             continue
-        else:
+        else: #James wins the game
             james_wins += 1
             num_games += 1
             continue
