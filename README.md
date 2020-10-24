@@ -3,7 +3,7 @@ A python script to model the win probabilities for a game of one on one between 
 
 The script can be found as james_davis_one_on_one_v2.py
 
-The output of the script plotted in excel is shown below with linear fits to both win probabilities.
+The output of the script (game_outcomes.csv) plotted in excel is shown below with linear fits to both win probabilities.
 ![win_probs_v_steal_prob](/win_probs_v_steal_prob.png)
 
 Solving the equations for their intersection shows that a Lebron stealing percentage of 33.3% affords equal probability of winning for each player.
